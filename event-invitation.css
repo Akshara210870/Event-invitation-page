@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url('./party4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #10fed2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.sub {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.event-time, .venue {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.rsvp-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.6s ease;
+}
+
+.rsvp-button:hover {
+    background-color: #7de194;
+}
+
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    color: #0583d9;
+    margin: 0 10px;
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+}
